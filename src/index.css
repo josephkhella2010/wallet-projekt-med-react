@@ -121,7 +121,7 @@ nav ul .li:hover {
     width: 100%;
 }
 
-.Home-Page .link button {
+.Home-Page button {
     padding: 10px;
     width: 100%;
     height: 60px;
@@ -135,11 +135,18 @@ nav ul .li:hover {
     font-size: 1.1rem;
     font-weight: bolder;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
-.Home-Page .link {
+.Home-Page .button {
     width: 50%;
     height: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
 }
 
 
